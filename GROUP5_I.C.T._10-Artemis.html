@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fish Dishes Recipe </title>
+<style>
+    body {background-image: url(https://i.pinimg.com/564x/8f/5a/49/8f5a49302b5b0be575acf30591ea0c35.jpg);border-style:double; background-repeat: no-repeat; background-attachment: fixed; 
+	    background-size: 100% 100%;}
+        h1{font-family: gabriola; font-size: 60px; font-style: Oblique; font-weight: 700; word-spacing: 5px; text-align: center; color: black; background-color:rgb(202, 175, 139);
+            background-position: center-center; border-style::content; border-color: saddlebrown; border-width: thin; margin-left: 100px; margin-right: 100px; 
+            padding-top: 15px; padding-bottom: 15px; border-width: thin;}
+	    h2{ font-family: Lucida Calligraphy; text-align: center; background-color: burlywood; padding-right: 10px;}
+        h3{ font-family: Lucida Calligraphy; color:aliceblue; font-weight: bolder; text-decoration: underline;}
+        h4{ font-family: Lucida Calligraphy; text-align: center; background-color: burlywood;font-size: larger;}
+        h5 {font-family: Lucida calligraphy; background-color: navajowhite; margin-right: 1000px; font-size: large; padding-left: 10px; padding-top: 5px; padding-bottom: 5px; }
+        h6{font-family: Lucida calligraphy; background-color: navajowhite; margin-right: 1000px; font-size: large; padding-left: 10px; padding-top: 5px; padding-bottom: 5px;}
+        p{color:black;font-family:ink free; font-weight: bold; font-size: larger; background-color: bisque; background-blend-mode: color-dodge; margin-left:50px; margin-right: 50px; padding-left: 10px; padding-top: 5px; padding-bottom: 5px; text-align:center; border-style: solid; border-width:thin;}
+        li {font-family: palatino linotype; color:black; background-color: burlywood; margin-right: 1000px; margin-left: 0px; padding-left: 10px; padding-top: 5px; padding-bottom: 5px;}
+        html{font-family: monospace; text-align: justify;}
+        ::-webkit-search-results-decoration {font-family: Imprint MT Shadow; background-color:bisque;}
+        img { float: right; }
+        topnav a:hover {background-color: #ddd;color: black;}
+        div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: right;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+
+  #content {
+  position:relative;
+}
+
+.ribbon {
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+</style>
+
+
+
+</head>
+<body>
+    <h1>Fish Dishes Recipe</h1>
+    <form id="searchForm" onsubmit="searchWebsite(); return false;">
+        <input type="text" id="searchInput" placeholder="Enter your query">
+        <button type="submit">Search</button>
+    </form>
+    <div id="searchResults"></div>
+    <h5>You can search the following:</h5>
+    <p>Gambas</p>
+    <p>Fish Steak</p>
+    <p>Braised Lapu-Lapu</p>
+    <p>Kare-Kareng Seafood</p>
+    <p>Tempura</p>
+    <h3>Reminder: Highly Case Sensitive... Should be all LowerCase</h3>
+
+    <h6>Group 5 Members:</h6>
+    <ul>
+        <li>Antonio Justin Cueto</li>
+        <li>Karl Zedrick De Castro</li>
+        <li>Jay Jay Lingao</li>
+        <li>Lycel Artificio</li>
+        <li>Jeanette Custodio</li>
+        <li>Hillary Dela Pena</li>
+        <li>Aleah Cassandra Dimaculangan</li>
+        <li>Aryan Fiona Fabie</li>
+        <li>Dhaenzelle Ann Hobayan</li>
+        <li>Jemimah Lisay</li>
+    </ul>
+    
+    
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://i.pinimg.com/564x/d1/46/2e/d1462e6ba4c37fb9ee940e33d89558eb.jpg">
+            <img src="https://i.pinimg.com/564x/d1/46/2e/d1462e6ba4c37fb9ee940e33d89558eb.jpg" alt="Gambas">
+          </a>
+          <div class="desc">Cooking Recipe for Gambas</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://i.pinimg.com/564x/2c/03/33/2c033372de2cafe64802be77d8b7c282.jpg">
+            <img src="https://i.pinimg.com/564x/2c/03/33/2c033372de2cafe64802be77d8b7c282.jpg" alt="Fish steak">
+          </a>
+          <div class="desc">Cooking Recipe for Fish Steak</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://80breakfasts.com/wp-content/uploads/2014/08/14831133841_3bde38d4f6_z.jpg">
+            <img src="https://80breakfasts.com/wp-content/uploads/2014/08/14831133841_3bde38d4f6_z.jpg" alt="Braised Lapu-Lapu">
+          </a>
+          <div class="desc">Cooking Recipe for Braised lapu-lapu</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://i.pinimg.com/564x/f6/b7/1c/f6b71c288ddab5d37e7b8dd19ee4c047.jpg">
+            <img src="https://i.pinimg.com/564x/f6/b7/1c/f6b71c288ddab5d37e7b8dd19ee4c047.jpg" alt="Kare-Kareng Seafood">
+          </a>
+          <div class="desc">Cooking Recipe for Kare-Kareng Seafood</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://i.pinimg.com/564x/d3/2f/30/d32f30a6cfff4d7c2f31d426edf40109.jpg">
+            <img src="https://i.pinimg.com/564x/d3/2f/30/d32f30a6cfff4d7c2f31d426edf40109.jpg" alt="Tempura">
+          </a>
+          <div class="desc">Cooking Recipe for Tempura</div>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+
+
+<script>
+    function searchWebsite() {
+        var query = document.getElementById("searchInput").value.toLowerCase();
+        var searchResults = document.getElementById("searchResults");
+
+        searchResults.innerHTML = "";
+
+        if (query === "gambas") {
+            searchResults.innerHTML = "<h2>Ingredients For Gambas : </h2><p> <li>1/2 k. medium-sized shrimps,</li><li> 5 cloves garlic, minced,</li><li> 4 T. oil,</li><li> 1 t. calamansi juice,</li><li> 1/2 c. gin,</li><li> 2 T. bread crumbs,</li><li> 1/4 t. salt, dash of hot chili sauce </li><li>1/2 c. onion, minced</li></p><h4>Procedures for Cooking Gambas:</h4><p1><p>1.) Remove the shell of the shrimps. Devein. Set aside,</p><p>2.)  Brown garlic in oil. Add the onion, Add the shrimps, cook until reddish,</p><p>3.) Put the calamansi juice, gin, and hot chili sauce, and salt,</p><p>4.) Thicken with bread crumbs</p><p>5.)Serve hot.</p></p1>";
+        } else if (query === "fish steak") {
+            searchResults.innerHTML = "<h2>Ingredients For Fish Steak</h2><p>¾ k.tanigue,sliced, 2 PCs.spring onions, 2T.rice wine, 1T. Grated ginger, 2 T.oil, 1 t.salt, ¼ t.pepper, 1 t.sugar, ½ t. Vinegar</p><h2>Procedures</h2><p1>Wash and drain the fish, Rub both sides with salt and pepper and the grated ginger, Heat a non stick pan.Add oil, Place the fish Steak in the pan and fry for 3minutes on each side., Add the soy sauce,rice wine, vinegar,sesame oil and sugar Let cook for 2 minutes to 3mins., Turn the fish.Toss in the spring onions, cook for 2minutes more., Serve Hot.</p1>";
+        } else if (query === "braised lapu lapu") {
+            searchResults.innerHTML = "<h2>Ingredients For Braised Lapu-Lapu</h2><p> ul<li>1 medium lapu-lapu (grouper), 2 T. Rice wine , 1 T. Sugar, 1/3 c. Dried mushroom, Soaked in water and sliced , 1/4 c. Leeks, 1/2 c. Soy sauce , 1 c. Stock, 4 T. Cornstarch, dispersed in water, 2 c. Oil for deep fat frying</p><h2>Procedures</h2><p1>Clean fish throughly, Slit the flesh of the fish slightly , Pour 1/4 c. Soy sauce to marinate , Heat oil, Fry the fish. Drain and set aside for broth, Sauté the mushrooms and leeks, Mix rice wine, 1/4 c. Soy sauce, sugar, pepper, and stocks, Pour over sautéed mushrooms and leeks , Add the fish, Add 1 c. Broth., Simmer for 15 minutes or until done., Add the dispersed cornstarch to thicken, Serve hot</p1>";
+        } else if (query === "kare kareng seafood") {
+            searchResults.innerHTML = "<h2>Ingredients For Kare Kareng Seafood</h2><p>1/2 k. tantgue, cut into 1/2,10 pcs. shrimps,1/2 k. mussels (tahong),1/2 t. salt,1 eggplant slice into rounds,1 bundle sitaw (10pcs.) cut into 2 long,1/2 k. puso ng saging (sliced crosswise),5 T. oil,1 big onion, sliced,3 cloves garlic, minced,2 1. annatto (achuete) seeds,1/3 c. peanut butter,1/3 c. powdered rice bagoong alamang sauteed with pork</p><h2>Procedures</h2><p1>1. Boil tanigue slices, shrimps and mussels in 1 c. water each separately. Set aside. 2. Sauté garlic, onion. 3. Add to the water in which the seafoods were cooked. Add salt. Let boil. 4. Add the sliced pusong saging. 5. When the puso ng saging is almost tender, add the sitaw and eggplant. 6. Wash the annatto seeds and soak in half cup of water. 7. Add the colored water to the mixture. 8. Add the powdered rice and peanut butter stirring continuously to avoid scorching. 9. Put the seafoods back into the saucepan with vegetables. Let boil for 3 minutes. 10. Remove from fire. 11. Serve with bagoong alamang.</p1>";
+        } else if (query === "Tempura") {
+            searchResults.innerHTML = "<h2>Ingredients For tempura</h2><p>½ kg. medium shrimps, 1 c. all-purpose flour, 1 c. water, 1 egg, slightly beaten, salt and pepper to taste , melted butter</p><h2>Procedures</h2><p1>1. Remove the shell of the shrimps, keep the tails intact., 2. Slit the back of the shrimps and open butterfly style., 3. Devein and wash thoroughly. Drain., 4. In a bowl, combine the flour, water. egg, salt, and pepper., 5. Mix thoroughly. , 6. Dip shrimps in the butter and deep fat fry., 7. Serve hot with desired sauce.</p1>";
+        } else {
+            searchResults.innerHTML = "<p>Case sensitive recheck your input</p>";
+        }
+    }
+</script>
+</body>
+</html>
